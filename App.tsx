@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { generatePlan } from './services/geminiService';
 import Header from './components/Header';
@@ -49,7 +48,7 @@ const App: React.FC = () => {
           {!hasGenerated && !isLoading && (
              <div className="text-center text-gray-400 mt-16 animate-fade-in-up">
               <p className="text-lg">Ready to bring your app idea to life?</p>
-              <p>Enter your concept below and get a personalized roadmap to build and launch on the Google Play Store, no code required.</p>
+              <p>Enter your concept below to get a personalized roadmap for the easiest path to market, no code required.</p>
             </div>
           )}
 
